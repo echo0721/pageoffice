@@ -1,0 +1,45 @@
+<!DOCTYPE web-app  >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+    <servlet>
+        <servlet-name>spring</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>spring</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+		<servlet-name>poserver</servlet-name>
+		<servlet-class>com.zhuozhengsoft.pageoffice.poserver.Server</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>poserver</servlet-name>
+		<url-pattern>/poserver.zz</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>poserver</servlet-name>
+		<url-pattern>/sealsetup.exe</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>poserver</servlet-name>
+		<url-pattern>/posetup.exe</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>poserver</servlet-name>
+		<url-pattern>/pageoffice.js</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>poserver</servlet-name>
+		<url-pattern>/jquery.min.js</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>poserver</servlet-name>
+		<url-pattern>/pobstyle.css</url-pattern>
+	</servlet-mapping>
+  
+</web-app>
